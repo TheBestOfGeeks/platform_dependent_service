@@ -1,5 +1,3 @@
-library platform_service;
-
 import 'package:platform_dependent_services/platform_dependencies.dart';
 
 class PlatformService implements PlatformDependencies {
