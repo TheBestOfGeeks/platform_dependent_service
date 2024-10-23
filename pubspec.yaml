@@ -1,7 +1,9 @@
-name: gms_services
+name: platform_dependent_service
 description: "A new Flutter package project."
 version: 0.0.1
 homepage: "https://example.com"
+
+publish_to: none
 
 environment:
   sdk: ^3.5.3
@@ -11,6 +13,9 @@ dependencies:
   flutter:
     sdk: flutter
 
+  platform_dependent_services:
+    git: https://github.com/TheBestOfGeeks/platform_dependent_services
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -19,8 +24,7 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
-platform_dependent_services:
-  git: https://github.com/TheBestOfGeeks/platform_dependent_services
+
 # To add assets to your package, add an assets section, like this:
 # assets:
 #   - images/a_dot_burr.jpeg
